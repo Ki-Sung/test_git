@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# DS Sotre
+*.DS_Store
+
+# dotenv environment variables file
+.env
+.env.test
+
 # Distribution / packaging
 .Python
 build/

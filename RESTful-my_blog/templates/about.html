@@ -1,0 +1,31 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>5년 동안 Gucci 매장에서 판매, 고객관리 등의 경력을 쌓다가, 데이터의 중요성을 깨닫고 데이터 분석가로 커리어를 전향하게 되었습니다.</p>
+        <p>에이원 퍼포먼스팩토리 데이터 인텔리전스팀에 합류 후 데이터 분석, 대시보드 구축, 데이터 엔지니어, Back-end 개발 등 다양한 데이터 직군을 경험했습니다.</p>
+        <p>현재 본 팀에서 데이터 엔지니어 직군을 맡아, 데이터 분석가 및 MLOps 구성원들에게 어떻게 하면 좋은 데이터를 제공해 드릴 수 있는지 늘 고민하고 있습니다.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
