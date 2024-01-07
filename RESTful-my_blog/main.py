@@ -48,7 +48,7 @@ def get_all_posts():
 @app.route("/post/<int:index>")
 def show_post(index):
     requested_post = BlogPost.query.get(index)                                      # index 기준 특정 게시물 조회 
-    return render_template("post.html", post=requested_post)                        # 요청된 게시물과 같이 post.html 템필릿 렌더링
+    return render_template("post.html", post=requested_post)                     # 요청된 게시물과 같이 post.html 템필릿 렌더링
 
 # 3. 새로운 게시글 추가 page - url 체계: http://127.0.0.1:5000/new-post -> CRUD 중 CREATE
 @app.route("/new-post", methods=["GET", "POST"])
